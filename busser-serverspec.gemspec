@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'busser'
+  spec.add_dependency 'rspec_junit_formatter'
 
   spec.add_development_dependency 'serverspec'
 
